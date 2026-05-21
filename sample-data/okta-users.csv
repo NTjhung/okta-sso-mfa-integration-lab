@@ -1,0 +1,6 @@
+FirstName,LastName,Department,JobTitle,Username,GroupName,ApplicationAccess,MFARequired
+Alice,Johnson,HR,HR Manager,alice.johnson@example.com,Okta-HR-Users,HR Portal,Yes
+Brian,Lee,Finance,Finance Analyst,brian.lee@example.com,Okta-Finance-Users,Finance App,Yes
+Carlos,Ramirez,IT,Helpdesk Technician,carlos.ramirez@example.com,Okta-IT-Admins,Admin Tools,Yes
+Dana,Smith,Contractors,Project Contractor,dana.smith@example.com,Okta-Contractors,Project App,Yes
+Emma,Wilson,Sales,Sales Representative,emma.wilson@example.com,Okta-Sales-Users,Sales App,No
