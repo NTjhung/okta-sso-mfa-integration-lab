@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project demonstrates a basic Okta Identity and Access Management lab focused on users, groups, application assignment, single sign-on concepts, MFA policy planning, and IAM documentation.
+This project demonstrates a basic Okta Identity and Access Management lab focused on users, groups, application assignment, single sign-on concepts, MFA policy planning, troubleshooting, and IAM documentation.
 
 The purpose of this lab is to show how Okta can be used to centralize access management and improve authentication security for users and applications.
 
@@ -48,6 +48,7 @@ Organizations often use multiple cloud applications, and managing access manuall
 - Okta-Finance-Users
 - Okta-IT-Admins
 - Okta-Contractors
+- Okta-Sales-Users
 - Okta-MFA-Required
 
 ## Project Files
@@ -63,6 +64,52 @@ Organizations often use multiple cloud applications, and managing access manuall
 - docs/MFA-Policy.md
 - docs/Troubleshooting-Notes.md
 - sample-data/okta-users.csv
+
+## Lab Screenshots
+
+### Okta Groups List
+
+![Okta Groups List](screenshots/okta-groups-list.png)
+
+### Okta Users List
+
+![Okta Users List](screenshots/okta-users-list.png)
+
+### HR Group Members
+
+![Okta HR Group Members](screenshots/okta-hr-group-members.png)
+
+### Finance Group Members
+
+![Okta Finance Group Members](screenshots/okta-finance-group-members.png)
+
+### IT Admins Group Members
+
+![Okta IT Admins Group Members](screenshots/okta-it-admins-group-members.png)
+
+### Contractors Group Members
+
+![Okta Contractors Group Members](screenshots/okta-contractors-group-members.png)
+
+### MFA Required Group Members
+
+![Okta MFA Required Members](screenshots/okta-mfa-required-members.png)
+
+### HR Portal Lab App
+
+![Okta HR Portal App](screenshots/okta-hr-portal-app.png)
+
+### App Group Assignment
+
+![Okta App Group Assignment](screenshots/okta-app-group-assignment.png)
+
+### Finance App Assignment
+
+![Okta Finance App Assignment](screenshots/okta-finance-app-assignment.png)
+
+### Okta Authenticators
+
+![Okta Authenticators](screenshots/okta-authenticators.png)
 
 ## Key IAM Concepts Demonstrated
 
@@ -82,10 +129,18 @@ Group-based access allows users to receive application access based on departmen
 
 Users should only receive access required for their job responsibilities.
 
+### App Assignment
+
+Application access was assigned through groups instead of assigning access broadly to all users. This supports cleaner IAM administration and easier access reviews.
+
+### Troubleshooting
+
+The troubleshooting notes document common IAM support scenarios such as users missing app access, unexpected MFA prompts, missing MFA prompts, contractor access issues, and admin access reviews.
+
 ## Resume Bullet
 
 - Built an Okta SSO and MFA lab with users, groups, group-based application assignment, MFA policy documentation, access control planning, troubleshooting notes, and audit evidence screenshots.
 
 ## Status
 
-In progress. This project will be updated with Okta users, groups, app assignment documentation, MFA planning notes, screenshots, and final results.
+Completed Okta SSO and MFA integration lab with users, groups, application assignments, MFA policy documentation, troubleshooting notes, and screenshots.
